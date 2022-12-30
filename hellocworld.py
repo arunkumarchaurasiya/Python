@@ -1,17 +1,3 @@
-class Shape(object):
-    def __init__(self):
-        pass
+# This program prints Hello, world!
 
-    def area(self):
-        return 0
-
-class Square(Shape):
-    def __init__(self, l):
-        Shape.__init__(self)
-        self.length = 3
-
-    def area(self):
-        return self.length*self.length
-
-aSquare= Square(3)
-print(aSquare.area())
+print('Hello, world!')
